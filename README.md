@@ -11,6 +11,7 @@ Only a few commandline tools like shuf and stty are needed.
 
 The script also calculates the checksum for each frame.
 Uses the serial interface as parameter, e.g.
+
   ./victron_emulator.sh /dev/ttyUSB1
 
 If called without parameter for serial interface, it will output the data frame on screen.
